@@ -1,0 +1,8 @@
+﻿  fluid.cpp
+C:\Users\yungching\Desktop\CA\HW3\HW3\src\fluid.cpp(633,11): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  正在產生程式碼
+  3 of 2448 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    19 functions had inline decision re-evaluated but remain unchanged
+  已完成程式碼產生
+  2dFluidSim.vcxproj -> C:\Users\yungching\Desktop\CA\HW3\HW3\x64\Release\2dFluidSim.exe

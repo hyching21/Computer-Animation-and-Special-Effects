@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\extern">
+      <UniqueIdentifier>{3dbdffc9-ab7e-4802-842d-8f820874d8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extern">
+      <UniqueIdentifier>{d6ff7732-128f-4cf8-856f-aff5ae1fed3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\extern\imgui">
+      <UniqueIdentifier>{ac41d096-2bf5-4793-8593-af453ba08d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\extern\glfw">
+      <UniqueIdentifier>{34d44ebd-feba-452a-a89f-2a67fde8ae59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\extern\glad">
+      <UniqueIdentifier>{bacfbc91-1ca5-43d8-9b63-061d58f504a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\extern\imgui">
+      <UniqueIdentifier>{80aa3e1d-6065-40a2-b679-31157cbeba3a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\fluid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\imgui\include\imconfig.h">
+      <Filter>Header Files\extern\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\imgui\include\imgui.h">
+      <Filter>Header Files\extern\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\imgui\include\imgui_impl_glfw.h">
+      <Filter>Header Files\extern\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\imgui\include\imgui_impl_opengl3.h">
+      <Filter>Header Files\extern\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\glfw\include\GLFW\glfw3.h">
+      <Filter>Header Files\extern\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\glfw\include\GLFW\glfw3native.h">
+      <Filter>Header Files\extern\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="..\extern\glad\include\glad\gl.h">
+      <Filter>Header Files\extern\glad</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\extern\imgui\src\imgui.cpp">
+      <Filter>Source Files\extern\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\imgui\src\imgui_draw.cpp">
+      <Filter>Source Files\extern\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\imgui\src\imgui_impl_glfw.cpp">
+      <Filter>Source Files\extern\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\imgui\src\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\extern\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\imgui\src\imgui_tables.cpp">
+      <Filter>Source Files\extern\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\extern\imgui\src\imgui_widgets.cpp">
+      <Filter>Source Files\extern\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\fluid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
